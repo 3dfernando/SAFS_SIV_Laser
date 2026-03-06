@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP UCC27424P
+D UCC27424P, Dual MOSFET Power Driver 4A, Non-Inverting, 4  15 V, 8-Pin PDIP
+K
+F http://www.ti.com/lit/ds/symlink/ucc27423.pdf
+$ENDCMP
+#
+#End Doc Library

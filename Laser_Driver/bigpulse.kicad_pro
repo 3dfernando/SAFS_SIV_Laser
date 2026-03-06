@@ -37,9 +37,9 @@
         "other_text_thickness": 0.1524,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.254,
-          "height": 0.635,
-          "width": 0.635
+          "drill": 3.5,
+          "height": 3.5,
+          "width": 3.5
         },
         "silk_line_width": 0.1016,
         "silk_text_italic": false,
@@ -135,7 +135,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.762,
         "min_text_thickness": 0.1016,
-        "min_through_hole_diameter": 0.254,
+        "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1524,
         "min_via_annular_width": 0.127,
         "min_via_diameter": 0.508,
@@ -554,7 +554,7 @@
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -608,6 +608,36 @@
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
           "show": false
         }
       ],
