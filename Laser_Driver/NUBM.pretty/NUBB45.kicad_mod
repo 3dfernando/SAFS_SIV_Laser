@@ -115,4 +115,15 @@
 		(uuid "72858ecd-83b8-4482-8574-82154d31e857")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/NUBB-45.STEP"
+		(offset
+			(xyz 0 2.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

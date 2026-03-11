@@ -2311,8 +2311,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+			(property "Reference" "Q5"
+				(at 6.35 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2320,8 +2320,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BS107"
-				(at 5.08 0 0)
+			(property "Value" "STP45N65M5"
+				(at 6.35 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2329,7 +2329,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "footprints:STP45N65M5"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -2340,7 +2340,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BS107-D.PDF"
+			(property "Datasheet" "https://www.digikey.com/en/products/detail/stmicroelectronics/STP45N65M5/3088028"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -2350,7 +2350,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.25A Id, 200V Vds, N-Channel MOSFET, TO-92"
+			(property "Description" "https://www.digikey.com/en/products/detail/stmicroelectronics/STP45N65M5/3088028"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2555,7 +2555,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2573,7 +2573,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
