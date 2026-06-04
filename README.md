@@ -6,7 +6,7 @@ Big thanks to MazinLab for publishing their laser driver! It enabled us to build
 
 Here's a couple samples of the images acquired with this light source:
 
-| Shear Layer of a M=0.92 jet (dt=800 ns) | Boundary Layer of a M=0.91 plug nozzle (dt=800 ns) |
+| Shear Layer of a M=0.98 jet (dt=800 ns) | Boundary Layer of a M=0.91 plug nozzle (dt=800 ns) |
 |---|---|
 | ![Shear Layer](https://raw.githubusercontent.com/3dfernando/SAFS_SIV_Laser/main/Samples/DoubleFrame_ShearLayer.gif?raw=true) | ![Boundary Layer](https://raw.githubusercontent.com/3dfernando/SAFS_SIV_Laser/main/Samples/DoubleFrame_Plug.gif?raw=true) |
 
