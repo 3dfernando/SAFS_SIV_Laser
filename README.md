@@ -28,3 +28,7 @@ Below a photograph of our laser drivers forming a double-pulse system in a 1.0 m
 
 ![Fiber source laser photo](https://raw.githubusercontent.com/3dfernando/SAFS_SIV_Laser/main/Samples/FS_Source_Photo.png)
 
+A closer view of the PCB design:
+
+![Fiber source laser photo](https://raw.githubusercontent.com/3dfernando/SAFS_SIV_Laser/main/Samples/PCB_3D.png)
+
