@@ -20,7 +20,7 @@ Convective velocity — the velocity of turbulent structures and a key contribut
 
 Further, the double-pulsed schlieren images can also be processed with Online Dynamic Mode Decomposition (ODMD) to extract the coherent behavior of the flow at very high frequencies, limited by the Nyquist frequency based on the inter-frame pulse delay dt (typically <300 ns). For example, at dt=300 ns, this enables the observation of coherent structures up to ~1.7 MHz — beyond the capability of state-of-the-art high-speed cameras — at full camera resolution.
 
-With our SAFS-SIV system, we are able to build a light source for under USD 1,000 — compared to systems exceeding $200,000 — capable of 50 kHz double-pulses with a 30 ns pulse width. At supersonic speeds, a 30 ns pulse corresponds to only ~2 μm of particle displacement, nearly eliminating motion blur. This dramatic reduction in cost opens the door to high-speed flow diagnostics for a much broader range of research groups and institutions.
+With our SAFS-SIV system, we are able to build a light source for under USD 1,000 capable of 50 kHz double-pulses with a 30 ns pulse width. At supersonic speeds, a 30 ns pulse corresponds to only ~2 μm of particle displacement, nearly eliminating motion blur. This low-cost device opens the door to high-speed flow diagnostics for a much broader range of research groups and institutions.
 
 ## Driver Picture
 
