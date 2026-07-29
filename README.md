@@ -22,4 +22,9 @@ Further, the double-pulsed schlieren images can also be processed with Online Dy
 
 With our SAFS-SIV system, we are able to build a light source for under USD 1,000 — compared to systems exceeding $200,000 — capable of 50 kHz double-pulses with a 30 ns pulse width. At supersonic speeds, a 30 ns pulse corresponds to only ~2 μm of particle displacement, nearly eliminating motion blur. This dramatic reduction in cost opens the door to high-speed flow diagnostics for a much broader range of research groups and institutions.
 
+## Driver Picture
+
+Below a photograph of our laser drivers forming a double-pulse system in a 1.0 mm fiber optic:
+
+![Fiber source laser photo](https://raw.githubusercontent.com/3dfernando/SAFS_SIV_Laser/main/Samples/FS_Source_Photo.png)
 
