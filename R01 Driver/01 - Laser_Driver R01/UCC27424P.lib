@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model UCC27424P
+#/182999/798332/2.50/8/3/Integrated Circuit
+DEF UCC27424P IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "UCC27424P" 950 200 50 H V L CNN
+F2 "DIP794W53P254L959H508Q8N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ucc27423.pdf" 950 0 50 H I L CNN
+F4 "UCC27424P, Dual MOSFET Power Driver 4A, Non-Inverting, 4  15 V, 8-Pin PDIP" 950 -100 50 H I L CNN "Description"
+F5 "5.08" 950 -200 50 H I L CNN "Height"
+F6 "595-UCC27424P" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UCC27424P?qs=eJkN62t4xTV38zNZr0mFXg%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "UCC27424P" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ENBA 1 0 0 200 R 50 50 0 0 P
+X INA 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X INB 4 0 -300 200 R 50 50 0 0 P
+X ENBB 8 1100 0 200 L 50 50 0 0 P
+X OUTA 7 1100 -100 200 L 50 50 0 0 P
+X VDD 6 1100 -200 200 L 50 50 0 0 P
+X OUTB 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

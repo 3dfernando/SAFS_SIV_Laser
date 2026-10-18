@@ -1,0 +1,134 @@
+(footprint "NUBB45"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "64152c47-3c15-4f8f-bc9c-f6a79f2020a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "NUBB45"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d361e07f-5516-43ee-8071-25321e6fc8d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aba9acfb-d225-43ff-aeb9-21c0b5090a51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87306f35-4ee2-4c84-8f88-d5b3c5386491")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -13 -8)
+		(end 13 8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0c962b03-12f5-4ba1-9e12-e2c018f70bc2")
+	)
+	(fp_rect
+		(start -3 -6.5)
+		(end 3 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fade0d35-8429-4995-8011-84403f34044a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dae98850-e7b9-4ebb-ab46-112e84127813")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -10.5 -2.25)
+		(size 3 3)
+		(drill 2.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a14658e2-64b5-4ce3-b1ac-31a96c2112b7")
+	)
+	(pad "" np_thru_hole circle
+		(at 10.5 -2.25)
+		(size 3 3)
+		(drill 2.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "de110aed-d555-4438-910b-8d67c99b58e5")
+	)
+	(pad "1" thru_hole rect
+		(at 8.5 9.25)
+		(size 3 1.75)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8cb2945a-59da-410b-90e5-a11d9ecb7bbd")
+	)
+	(pad "2" thru_hole rect
+		(at -8.5 9.25)
+		(size 3 1.75)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d7081dd2-0ad3-4cc5-8ae3-0b1bb382cb9b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/NUBB-45.STEP"
+		(offset
+			(xyz 0 2.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

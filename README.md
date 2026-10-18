@@ -1,6 +1,7 @@
 # FSIV - A high-speed Focusing Schlieren Velocimetry system
 
-Big thanks to MazinLab for publishing their laser driver! It enabled us to build this project at a very low cost!
+Big thanks to MazinLab (https://github.com/MazinLab/BigPulse) for publishing their laser driver! It enabled us to build this project at a very low cost!
+
 
 ## Samples
 
@@ -9,6 +10,11 @@ Here's a couple samples of the images acquired with this light source:
 | Shear Layer of a M=0.98 jet (dt=800 ns) | Boundary Layer of a M=0.91 plug nozzle (dt=800 ns) |
 |---|---|
 | ![Shear Layer](https://raw.githubusercontent.com/3dfernando/SAFS_SIV_Laser/main/Samples/DoubleFrame_ShearLayer.gif?raw=true) | ![Boundary Layer](https://raw.githubusercontent.com/3dfernando/SAFS_SIV_Laser/main/Samples/DoubleFrame_Plug.gif?raw=true) |
+| **Microjet SBLI at M=2 (dt=800 ns)** | |
+| ![Microjet Interaction](https://raw.githubusercontent.com/3dfernando/SAFS_SIV_Laser/main/Samples/MeanSubtracted_DF.gif?raw=true) | |
+
+
+
 
 ## Project Description
 
@@ -22,13 +28,29 @@ Further, the double-pulsed schlieren images can also be processed with Online Dy
 
 With our SAFS-SIV system, we are able to build a light source for under USD 1,000 capable of 50 kHz double-pulses with a 30 ns pulse width. At supersonic speeds, a 30 ns pulse corresponds to only ~2 μm of particle displacement, nearly eliminating motion blur. This low-cost device opens the door to high-speed flow diagnostics for a much broader range of research groups and institutions.
 
-## Driver Picture
+## Revision Notes
 
-Below a photograph of our laser drivers forming a double-pulse system in a 1.0 mm fiber optic:
+The R00 project was originally a double-pulse driver with two individual boards with their own lasers, both focused on a fiber. We noticed that this design, although effective, was a bit more expensive to build and had a disadvantage for advanced processing techniques because the speckle pattern of the fiber was a bit different for each laser, since they optically were coupled differently. 
+
+We decided to revise the circuit (R01 board) to fire the same physical laser twice in consecutive pulses coming from two different capacitor banks. To accomplish this, we needed to add a new fast SiC diode (FC06020E-3), which ensures the capacitor banks discharge separately. This design produces significantly more uniform images; though there is still a small variation of ~1% of brightness between the two pulses due to the capacitor banks having a tolerance. This effect is already minimized by having 6 capacitors, which reduces the tolerance of the bank.
+
+Note the R01 board is a 4-layer board to improve RF shielding as the high currents from discharging the capacitor bank were, during our development effort, triggering the other capacitor bank. We believe the updated design doesn't have this issue anymore.
+
+
+## Driver Picture (R01)
+
+This is the new driver. More pictures coming soon!
+
+![3D View of the PCB](https://raw.githubusercontent.com/3dfernando/SAFS_SIV_Laser/main/Samples/PCB_3D_R01.png)
+
+
+## Driver Picture (R00)
+
+**This is the old driver!** Below a photograph of our laser drivers forming a double-pulse system in a 1.0 mm fiber optic:
 
 ![Fiber source laser photo](https://raw.githubusercontent.com/3dfernando/SAFS_SIV_Laser/main/Samples/FS_Source_Photo.png)
 
 A closer view of the PCB design:
 
-![Fiber source laser photo](https://raw.githubusercontent.com/3dfernando/SAFS_SIV_Laser/main/Samples/PCB_3D.png)
+![3D View of the PCB](https://raw.githubusercontent.com/3dfernando/SAFS_SIV_Laser/main/Samples/PCB_3D.png)
 

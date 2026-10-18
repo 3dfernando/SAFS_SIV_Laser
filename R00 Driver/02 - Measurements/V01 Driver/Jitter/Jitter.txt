@@ -1,0 +1,4 @@
+Found 1439 pulses
+Jitter - Standard deviation = 482.3 ps
+Jitter - 5 percentile = 500.82 ns
+Jitter - 95 percentile = 501.95 ns
