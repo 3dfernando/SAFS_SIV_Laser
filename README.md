@@ -34,6 +34,8 @@ The R00 project was originally a double-pulse driver with two individual boards 
 
 We decided to revise the circuit (R01 board) to fire the same physical laser twice in consecutive pulses coming from two different capacitor banks. To accomplish this, we needed to add a new fast SiC diode (FC06020E-3), which ensures the capacitor banks discharge separately. This design produces significantly more uniform images; though there is still a small variation of ~1% of brightness between the two pulses due to the capacitor banks having a tolerance. This effect is already minimized by having 6 capacitors, which reduces the tolerance of the bank.
 
+The R01 design has also significantly improved thermal performance. The high-power resistors R1/R3 (10 Ohm) and R11/R12/R16/R17 (560 Ohm) were added as two series resistors to replace the original 20 Ohm and 1200 Ohm resistors. This increases the thermal dissipation area and enables the driver to operate for longer at higher repetition rates.
+
 Note the R01 board is a 4-layer board to improve RF shielding as the high currents from discharging the capacitor bank were, during our development effort, triggering the other capacitor bank. We believe the updated design doesn't have this issue anymore.
 
 

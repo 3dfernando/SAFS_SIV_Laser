@@ -18073,6 +18073,19 @@
 		(layer "Edge.Cuts")
 		(uuid "0bdb42f0-f940-4210-8456-f7869f05723c")
 	)
+	(gr_text "18V\n0.1A"
+		(at 146.84 102.28 0)
+		(layer "F.SilkS")
+		(uuid "09e351b8-03fb-4f21-a8ee-989f3744243f")
+		(effects
+			(font
+				(size 1 0.9)
+				(thickness 0.18)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
 	(gr_text "Schlieren Dual\nPulsed Driver\nRev. Sep 26"
 		(at 174.625 95.885 0)
 		(layer "F.SilkS")
